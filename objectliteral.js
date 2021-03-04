@@ -37,3 +37,4 @@ const todos = [
 
     }
 ]
+console.log(todos[1].text);
