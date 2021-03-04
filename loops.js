@@ -41,3 +41,10 @@ const todoText = todos.map(function(todo) {
     return todo.isCompleted
 })
 console.log(todoText);
+
+const todoCompleted = todos.filter(function(todo) {
+    return todo.isCompleted === true
+}).map(function(todo) {
+    return todo.text
+})
+console.log(todoCompleted);
