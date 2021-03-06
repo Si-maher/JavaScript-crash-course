@@ -1,0 +1,5 @@
+const myForm = document.querySelector('#my-form')
+const msg = document.querySelector('.msg')
+const userList = document.querySelector('#users')
+const nameInput = document.querySelector('#name')
+const emailInput = document.querySelector('#email')
